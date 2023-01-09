@@ -1,0 +1,102 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.body {
+font-family: 'Poppins', sans-serif;
+  background-color: #ddd;
+  line-height: 1.65;
+  padding-bottom: 100px;
+}
+.container-satu {
+  width: 100%;
+  background-color:#81ecec;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+}
+.kolom-utama {
+  flex: 10;
+}
+.sidebar {
+  float: left;
+  margin-top: 20px;
+}
+.sidebar a{
+  text-decoration: none;
+  margin-left: 20px;
+}
+.container-dua  {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: 0 -240px;
+}
+.header{
+  padding-bottom: 100px;
+}
+.header p {
+  width: 75%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 70px;
+}
+.container-tiga {
+  width: 100%;
+  display: flex;
+  background-color: yellow;
+}
+.card {
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-color: #81ecec;
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
+}
+.card .header-satu {
+  height: 210px;
+  background-image: url(mizuno.webp);
+  background-size: 315px;
+  background-repeat: no-repeat;
+  background-position:0 -70px;
+}
+.card .header-dua {
+  height: 210px;
+  background-image: url(bola.png);
+  background-size: 315px;
+  background-repeat: no-repeat;
+}
+.card .header-tiga {
+  height: 210px;
+  background-image: url(jersey.jpg);
+  background-size: 315px;
+  background-repeat: no-repeat;
+  background-position: 0 -23px;
+}
+.card .content {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.button{
+  background-color: #78e08f;
+}
+.kotak {
+  width: 100%;
+  padding: 1px;
+  background-color:#81ecec;
+  text-align: center;
+  box-sizing: border-box;
+}
+.footer {
+  width: 100%;
+  padding: 1px;
+  text-align: center;
+}
+.container-empat {
+  width: 100%;
+  height: 150px;
+  background-color: #81ecec;
+}
